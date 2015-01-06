@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>io.scif</groupId>
+		<artifactId>pom-scifio</artifactId>
+		<version>5.2.0</version>
+		<relativePath />
+	</parent>
+
+	<artifactId>scifio-javadoc</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<name>SCIFIO Javadocs</name>
+	<description>All the Javadocs for SCIFIO.</description>
+	<inceptionYear>2015</inceptionYear>
+
+	<scm>
+		<connection>scm:git:git://github.com/scifio/scifio-javadoc</connection>
+		<developerConnection>scm:git:git@github.com:scifio/scifio-javadoc</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/scifio/scifio-javadoc</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/scifio/scifio-javadoc/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/SCIFIO-javadoc/</url>
+	</ciManagement>
+
+	<repositories>
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+			<!-- SCIFIO - https://github.com/scifio/scifio -->
+			<dependency>
+				<groupId>io.scif</groupId>
+				<artifactId>scifio</artifactId>
+			</dependency>
+
+			<!-- SCIFIO-BF-compat - https://github.com/scifio/scifio-bf-compat -->
+			<dependency>
+				<groupId>io.scif</groupId>
+				<artifactId>scifio-bf-compat</artifactId>
+			</dependency>
+
+			<!-- SCIFIO Command Line Tools - https://github.com/scifio/scifio-cli -->
+			<dependency>
+				<groupId>io.scif</groupId>
+				<artifactId>scifio-cli</artifactId>
+			</dependency>
+
+			<!-- SCIFIO JAI Image I/O - https://github.com/scifio/scifio-jai-imageio -->
+			<dependency>
+				<groupId>io.scif</groupId>
+				<artifactId>scifio-jai-imageio</artifactId>
+			</dependency>
+
+			<!-- SCIFIO-LifeSci - https://github.com/scifio/scifio-lifesci -->
+			<dependency>
+				<groupId>io.scif</groupId>
+				<artifactId>scifio-lifesci</artifactId>
+			</dependency>
+
+			<!-- SCIFIO-OME-XML - https://github.com/scifio/scifio-ome-xml -->
+			<dependency>
+				<groupId>io.scif</groupId>
+				<artifactId>scifio-ome-xml</artifactId>
+			</dependency>
+
+			<!-- SCIFIO-OMERO - https://github.com/scifio/scifio-omero -->
+			<dependency>
+				<groupId>io.scif</groupId>
+				<artifactId>scifio-omero</artifactId>
+			</dependency>
+	</dependencies>
+
+</project>
