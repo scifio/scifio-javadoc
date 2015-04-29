@@ -1,3 +1,5 @@
+![](http://jenkins.imagej.net/job/SCIFIO-javadoc/lastBuild/badge/icon)
+
 This project aggregates the javadoc of SCIFIO components.
 
 They are built and published to:
