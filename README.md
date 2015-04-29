@@ -1,4 +1,4 @@
-![](http://jenkins.imagej.net/job/SCIFIO-javadoc/lastBuild/badge/icon)
+[![](http://jenkins.imagej.net/job/SCIFIO-javadoc/lastBuild/badge/icon)](http://jenkins.imagej.net/job/SCIFIO-javadoc/)
 
 This project aggregates the javadoc of SCIFIO components.
 
