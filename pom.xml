@@ -74,12 +74,6 @@
 				<groupId>io.scif</groupId>
 				<artifactId>scifio-ome-xml</artifactId>
 			</dependency>
-
-			<!-- SCIFIO-OMERO - https://github.com/scifio/scifio-omero -->
-			<dependency>
-				<groupId>io.scif</groupId>
-				<artifactId>scifio-omero</artifactId>
-			</dependency>
 	</dependencies>
 
 </project>
