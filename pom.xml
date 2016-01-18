@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>io.scif</groupId>
 		<artifactId>pom-scifio</artifactId>
-		<version>9.0.0</version>
+		<version>RELEASE</version>
 		<relativePath />
 	</parent>
 
@@ -15,6 +15,15 @@
 	<name>SCIFIO Javadocs</name>
 	<description>All the Javadocs for SCIFIO.</description>
 	<inceptionYear>2015</inceptionYear>
+
+	<properties>
+		<scifio.version>RELEASE</scifio.version>
+		<scifio-bf-compat.version>RELEASE</scifio-bf-compat.version>
+		<scifio-cli.version>RELEASE</scifio-cli.version>
+		<scifio-jai-imageio.version>RELEASE</scifio-jai-imageio.version>
+		<scifio-lifesci.version>RELEASE</scifio-lifesci.version>
+		<scifio-ome-xml.version>RELEASE</scifio-ome-xml.version>
+	</properties>
 
 	<scm>
 		<connection>scm:git:git://github.com/scifio/scifio-javadoc</connection>
