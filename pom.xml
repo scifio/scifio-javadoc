@@ -60,20 +60,6 @@
 		</mailingList>
 	</mailingLists>
 
-	<properties>
-		<license.licenseName>bsd_2</license.licenseName>
-		<license.copyrightOwners>Board of Regents of the University of
-Wisconsin-Madison</license.copyrightOwners>
-		<license.projectName>SCIFIO library for reading and converting scientific file formats.</license.projectName>
-
-		<scifio.version>RELEASE</scifio.version>
-		<scifio-bf-compat.version>RELEASE</scifio-bf-compat.version>
-		<scifio-cli.version>RELEASE</scifio-cli.version>
-		<scifio-jai-imageio.version>RELEASE</scifio-jai-imageio.version>
-		<scifio-lifesci.version>RELEASE</scifio-lifesci.version>
-		<scifio-ome-xml.version>RELEASE</scifio-ome-xml.version>
-	</properties>
-
 	<scm>
 		<connection>scm:git:git://github.com/scifio/scifio-javadoc</connection>
 		<developerConnection>scm:git:git@github.com:scifio/scifio-javadoc</developerConnection>
@@ -88,6 +74,20 @@ Wisconsin-Madison</license.copyrightOwners>
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/SCIFIO-javadoc/</url>
 	</ciManagement>
+
+	<properties>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Board of Regents of the University of
+Wisconsin-Madison</license.copyrightOwners>
+		<license.projectName>SCIFIO library for reading and converting scientific file formats.</license.projectName>
+
+		<scifio.version>RELEASE</scifio.version>
+		<scifio-bf-compat.version>RELEASE</scifio-bf-compat.version>
+		<scifio-cli.version>RELEASE</scifio-cli.version>
+		<scifio-jai-imageio.version>RELEASE</scifio-jai-imageio.version>
+		<scifio-lifesci.version>RELEASE</scifio-lifesci.version>
+		<scifio-ome-xml.version>RELEASE</scifio-ome-xml.version>
+	</properties>
 
 	<repositories>
 		<repository>
