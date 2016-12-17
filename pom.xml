@@ -114,6 +114,12 @@ Wisconsin-Madison</license.copyrightOwners>
 			<artifactId>scifio-cli</artifactId>
 		</dependency>
 
+		<!-- SCIFIO HDF5 - https://github.com/scifio/scifio-hdf5 -->
+		<dependency>
+			<groupId>io.scif</groupId>
+			<artifactId>scifio-hdf5</artifactId>
+		</dependency>
+
 		<!-- SCIFIO JAI Image I/O - https://github.com/scifio/scifio-jai-imageio -->
 		<dependency>
 			<groupId>io.scif</groupId>
