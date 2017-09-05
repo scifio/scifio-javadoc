@@ -15,7 +15,7 @@
 
 	<name>SCIFIO Javadocs</name>
 	<description>All the Javadocs for SCIFIO.</description>
-	<url>http://javadoc.imagej.net/SCIFIO/</url>
+	<url>https://javadoc.scijava.org/SCIFIO/</url>
 	<inceptionYear>2015</inceptionYear>
 	<organization>
 		<name>SCIFIO</name>
@@ -70,8 +70,8 @@
 		<url>https://github.com/scifio/scifio-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/SCIFIO-javadoc/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/scifio/scifio-javadoc/</url>
 	</ciManagement>
 
 	<properties>
